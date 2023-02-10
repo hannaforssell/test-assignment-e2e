@@ -1,0 +1,27 @@
+{
+  "Search": [
+    {
+      "Title": "multiTitle1",
+      "imdbID": "multiID1",
+      "Type": "multiType1",
+      "Poster": "multiPoster1",
+      "Year": "multiYear1"
+    },
+    {
+      "Title": "multiTitle2",
+      "imdbID": "multiID2",
+      "Type": "multiType2",
+      "Poster": "multiPoster2",
+      "Year": "multiYear2"
+    },
+    {
+      "Title": "multiTitle3",
+      "imdbID": "multiID3",
+      "Type": "multiType3",
+      "Poster": "multiPoster3",
+      "Year": "multiYear3"
+    }
+  ],
+  "totalResults": "3",
+  "Response": "True"
+}

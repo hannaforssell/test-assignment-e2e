@@ -2,12 +2,12 @@ beforeEach(() => {
   cy.visit('/');
 });
 
-describe('Finding the elements on start page', () => {
+describe('Finds the input & search button', () => {
   it('should find empty input', () => {
     cy.get('input').should('contain', '');
   })
 
-  it('should find search button', () => {
+  it('should find a button named \'Sök\'', () => {
     cy.get('button').should('contain', 'Sök');
   })
 })
@@ -17,19 +17,7 @@ describe('Makes sure input & search button works correctly', () => {
     cy.get('input').type('Hello world').should('have.value', 'Hello world');
   })
 
-  it('should press search button', () => {
-    cy.get('button').click();
-  })
-
-  it('should search for movies titles containing \'Hello world\'', () => {
-    cy.get('input').type('Hello world');
-
-    cy.get('button').click();
-  })
-})
-
-describe('Finding elements of movie list', () => {
-  it('should find all movies containing \'Hello world\'', () => {
+  it('when searching for \'Hello world\', all h3 should contain hello & world', () => {
     cy.get('input').type('Hello world');
 
     cy.get('button').click();

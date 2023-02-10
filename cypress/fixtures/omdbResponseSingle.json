@@ -1,0 +1,13 @@
+{
+  "Search": [
+    {
+      "Title": "singleMovieTitle",
+      "Year": "singleMovieYear",
+      "imdbID": "singleMovieID",
+      "Type": "singleMovieType",
+      "Poster": "singleMoviePoster"
+    }
+  ],
+  "totalResults": "1",
+  "Response": "True"
+}
