@@ -8,7 +8,7 @@ export const getData = async (searchText: string): Promise<IMovie[]> => {
     .then((data) => {
       return data.data.Search;
     })
-    .catch((e) => {
+    .catch(() => {
       return [];
     });
 };
